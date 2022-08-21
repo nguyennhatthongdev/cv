@@ -32,5 +32,22 @@ body {
   background-color: #0086de;
   margin-bottom: 20px;
 }
+.cv__content .work-experience__item {
+  margin-bottom: 40px;
+}
+.cv__content .work-experience__item__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cv__content .work-experience__item__title h3 {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.cv__content .work-experience__item__title p {
+  margin: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
