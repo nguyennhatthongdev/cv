@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.cv {
+  background-color: #ffffff;
+  &__header {
+    background-color: #0086de;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 50px;
+
+    .information {
+      list-style-type: square;
+      display: inline-flex;
+
+      li {
+        margin: 0 20px;
+      }
+    }
+  }
+
+  &__content {
+    padding: 50px 20px;
+
+    .title {
+      font-weight: bold;
+      font-size: 22px;
+      color: #0086de;
+    }
+
+    .diver {
+      display: block;
+      height: 3px;
+      background-color: #0086de;
+      margin-bottom: 20px;
+    }
+  }
+}
